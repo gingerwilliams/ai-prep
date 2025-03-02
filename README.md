@@ -13,4 +13,5 @@ npx prisma init
 
 ```
 npx prisma migrate dev --name name
+env DATABASE_URL=""
 ```
