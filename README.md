@@ -30,3 +30,6 @@ https://tailwindcss.com/
 
 - UUID
 https://developer.mozilla.org/en-US/docs/Glossary/UUID
+
+- Requet Object
+https://developer.mozilla.org/en-US/docs/Web/API/Request
