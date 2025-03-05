@@ -1,9 +1,9 @@
 "use server"
-import { read } from "@/utils/actions";
+import { getAll } from "@/utils/actions";
 import Task from "./Tasks";
 
 const TaskList = async () => {
-    const tasks = await read();
+    const tasks = await getAll();
 
     return tasks.map(task => (
         <Task key={task.id} task={task} />
