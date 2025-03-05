@@ -3,19 +3,22 @@ Ai powered prep application
 
 ### To run the application
 ```
+npx create-next-app@latest appname
 npm run dev
 ```
 
 ```
 npm i prisma --save-dev
 npm i @prisma/client@latest
-npx prisma init
+npx prisma init --datasource-provider sqlite
 ```
 
 ```
-npx prisma migrate dev --name name
-**npx prisma studio**
+npx prisma migrate dev --name name 
+(creates the file:./dev.db in prisma folder)
 env DATABASE_URL=""
+model Name {}
+**npx prisma studio**
 ```
 
 ### Resources:
