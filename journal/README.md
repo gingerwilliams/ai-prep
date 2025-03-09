@@ -46,6 +46,9 @@ https://developer.mozilla.org/en-US/docs/Web/API/Request
 - Connect Prisma and Neon
 https://neon.tech/docs/guides/prisma
 
+- Clerk Pull Auth Data
+https://clerk.com/docs/references/nextjs/auth
+
 - Clerk Custom Sign Up Page
 https://clerk.com/docs/references/nextjs/custom-sign-up-page
 
@@ -54,6 +57,4 @@ https://clerk.com/docs/upgrade-guides/nextjs/v6#removed-deprecated-apis
 
 - Clerk Environment Variables
 https://clerk.com/docs/deployments/clerk-environment-variables
-
-
 
