@@ -23,7 +23,7 @@ npx prisma format
 - Next.js
 https://nextjs.org/docs
 
-- Postgres Database
+- Neon Postgres Database
 https://neon.tech
 
 - Prisma
