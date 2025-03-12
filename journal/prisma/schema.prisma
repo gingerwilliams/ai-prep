@@ -35,7 +35,7 @@ model JournalEntry {
 
   analysis Analysis? // one to one //? has to be optional no initial analysis
 
-  @@index([userId])
+  @@unique([userId, id]) // findUnique
 }
 
 model Analysis {
@@ -48,7 +48,7 @@ model Analysis {
   positive  Boolean
 
   entryId String
-  entry   JournalEntry @relation(fields: [entryId], references: [id]) // foreign key
+  entry   JournalEntry @relation(fields: [entryId], references: [id]) // foreign key // npx prisma format
 
   @@unique([entryId])
 }
