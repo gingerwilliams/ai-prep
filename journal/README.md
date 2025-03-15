@@ -48,6 +48,9 @@ https://clerk.com/docs/quickstarts/nextjs
 npm i react-autosave
 https://github.com/jollyjerr/react-autosave/tree/main/src
 
+- Zod 
+https://github.com/colinhacks/zod
+
 
 ### How To's
 - Nextjs Requet Object

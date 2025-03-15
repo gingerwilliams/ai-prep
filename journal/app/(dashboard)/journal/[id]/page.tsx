@@ -2,6 +2,7 @@ import Editor from "@/components/Editor";
 import prisma from "@/utils/db"
 
 import { analyze } from "@/utils/ai";
+import { prompt } from "@/utils/prompt";
 import { getUserByClerkId } from "@/utils/auth";
 
 const getEntry = async (id) => {
@@ -14,7 +15,7 @@ const getEntry = async (id) => {
         }
     })
 
-    await analyze("creat a react component that renders a counter from 1 to 10")
+    await analyze(prompt)
 
     return entry
 }
