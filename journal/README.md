@@ -29,6 +29,12 @@ https://neon.tech
 - Prisma
 https://www.prisma.io/
 
+- OpenAi API
+https://platform.openai.com/
+
+- LangChain
+https://js.langchain.com/docs/introduction/
+
 - Tailwind
 https://tailwindcss.com/
 
@@ -38,13 +44,20 @@ https://developer.mozilla.org/en-US/docs/Glossary/UUID
 - Clerk Authentication
 https://clerk.com/docs/quickstarts/nextjs
 
+- React AutoSave
+npm i react-autosave
+https://github.com/jollyjerr/react-autosave/tree/main/src
+
 
 ### How To's
 - Nextjs Requet Object
 https://developer.mozilla.org/en-US/docs/Web/API/Request
 
-- Connect Prisma and Neon
+- Connect Neon and Prisma
 https://neon.tech/docs/guides/prisma
+
+- Langchain Instantiation
+https://js.langchain.com/v0.2/docs/integrations/llms/openai/
 
 - Clerk Pull Auth Data
 https://clerk.com/docs/references/nextjs/auth
