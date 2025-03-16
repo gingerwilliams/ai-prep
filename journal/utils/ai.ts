@@ -40,5 +40,10 @@ export const analyze = async (content) => {
     })
     const input = await getPrompt(content)
     const result = await model.invoke(input)
-    console.log(result.content)
+
+    try {
+        return parser.parse(result.content as string)
+    } catch (err) {
+        console.log(err)
+    }
 }

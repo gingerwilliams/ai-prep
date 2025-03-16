@@ -46,6 +46,7 @@ model Analysis {
   summary   String   @db.Text
   color     String
   positive  Boolean
+  subject String
 
   entryId String
   entry   JournalEntry @relation(fields: [entryId], references: [id]) // foreign key // npx prisma format
